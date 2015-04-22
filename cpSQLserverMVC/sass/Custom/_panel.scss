@@ -1,0 +1,30 @@
+.panel{
+	font-family: 'Source Sans Pro';
+	position: absolute;
+	z-index:10;
+	width:800px;
+	height:700px;
+	background:#eee;
+	top:50%;
+	left:50%;
+	margin:-350px 0 0 -400px;
+	padding:20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	h1{
+		font-size:1.8em;
+		font-weight:700;
+		text-align:center;
+		margin-bottom:10px;
+		color:#222;
+	}
+
+	h2{
+		font-weight:400;
+		font-size:.8em;
+		margin-bottom:16px;
+		text-align:center;
+		line-height:1.3em;
+	}
+}
